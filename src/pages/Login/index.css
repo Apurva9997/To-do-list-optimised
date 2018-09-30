@@ -1,0 +1,29 @@
+label{
+    margin-left: 25px;
+}
+p,label,input,td {
+    font-size: 14pt;
+}
+button{
+    height:40px;
+    width: 80px;
+    font-size: 14pt;
+    color: white;
+    background-color: #2b81af;
+    border-radius: 10px;
+}
+#signup_button{
+    text-decoration: underline;
+    color: blue;
+    font-size: 14pt;
+}
+#table-container{
+    margin-top: 3%;
+    width: 50%;
+    margin-left: 37%;
+    /*border: 1px solid black;*/
+}
+input{
+    padding: 3px;
+    height:20px;
+}

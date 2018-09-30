@@ -1,0 +1,68 @@
+#timeBar{
+    width: 100%;
+    height: 40px;
+    float: left;
+    font-size: 10pt;
+}
+#timeBar h2{
+    float: left;
+}
+#timeBar button{
+    float: right;
+}
+#markButton{
+    width: 80px;
+    color:white;
+    font-size: 10pt;
+    background: steelblue;
+}
+#deleteButton{
+    width: 80px;
+    color:white;
+    font-size: 10pt;
+    background: indianred;
+}
+#title{
+    color: coral;
+    font-size: 2.4em;
+}
+.status{
+    color: darkgreen;
+    text-transform: uppercase;
+    animation: status_blink 1s linear infinite;
+}
+@keyframes status_blink  {
+    100%{
+        opacity: 0;
+        color: red;
+    }
+}
+.to-do-main-input{
+    width: 250px;
+    padding: 10px;
+    font-size: 1em;
+    margin-left: 1%;
+}
+.label-main-todo-table{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.to-do-submit{
+    margin-top: 10px;
+    background: lightseagreen;
+    color: white;
+    margin-left: 15%;
+    height: 2.4em;
+    width: 4.8em;
+    border-radius: 12px;
+    padding: 1px;
+}
+.to-do-table{
+    margin-top: 3%;
+    margin-left:20%;
+    width: 60%;
+}
+.main-input-container{
+    margin-left: 35vw;
+}
